@@ -1,0 +1,245 @@
+/*!
+Theme Name: test
+Theme URI: http://check.globalsite.com.ua/
+Author: Repikhov A.N.
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: test
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+body{
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #fff;
+	color: #222222;
+}
+a, a:hover, a:focus, a:active, .btn:hover, .btn:focus, .btn:active{
+	color: #222222;
+	outline: 0;
+	text-transform: none;
+	text-decoration: none;
+}
+h1{
+    color: #da8657;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+h2{
+    color: #da8657;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding-left: 50px;
+    position: relative;
+    text-shadow: 1px 1px 3px #222222;
+}
+h2:before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #da8657;
+    left: 0;
+    bottom: -10px;
+}
+p{
+	text-align: justify;
+	text-indent: 10px;
+}
+.bg{
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.space{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.mt{
+	margin-top: 50px;
+}
+.btn:hover{
+	color: #fe0000;
+	background-color: transparent;
+}
+header .title_box{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+header .title_box h1{
+    padding-top: 160px;
+    text-align: center;
+    color: #fff;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 5px 5px 8px #222222;
+    margin-top: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #da8657;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #222222;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #da8657;
+}
+.navbar-brand{
+    color: #222222;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.last_post_wrapper, .post_info_wrapper{
+	padding: 15px ;
+}
+.last_post_wrapper .last_post_banner img{
+    width: 100%;
+}
+.post_title{
+	text-align: left;
+    min-height: 78px;
+    margin-top:0;
+    font-family: 'Russo One', sans-serif;
+}
+.post_title a{
+	color: #da8657;
+	font-size: 16px;
+	text-align: left;
+}
+.last_post_meta {
+	padding-top: 14px;
+	color: #da8657;
+}
+.last_post_meta .avatar{
+	width: 30px;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.last_post_meta .author a{
+    color: #222222;
+    text-transform: uppercase;
+    font-size:14px;
+}
+#subscribe .text p{
+    text-align: center;
+}
+.wpcf7-form p{
+    text-align: center;
+    text-indent: 0;
+}
+.wpcf7-form input{
+    border-radius: 6px;
+    height: 40px;
+    border: 1px solid #222222;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.wpcf7-form .wpcf7-submit{
+    border-radius: 6px;
+    background-color: #da8657;
+    color: #fff;
+    padding: 0 7px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 40px;
+    margin: 10px auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    height: 40px;
+    max-width: 400px;
+    z-index: 80;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 2px solid #da6857;
+    webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.wpcf7-form .wpcf7-submit:hover{
+    color: #da6857;
+    background-color: transparent;
+}
+::-webkit-input-placeholder {color:#222222; }
+::-moz-placeholder          {color:#222222; }
+:-moz-placeholder           {color:#222222; }
+:-ms-input-placeholder      {color:#222222; }
+.single_post_banner img{
+    width: 100%;
+    max-width: 600px;
+}
+.navigation{
+    margin-top: 60px;
+}
+.navigation h2{
+    text-align: center;
+    font-size:20px;
+    text-shadow: none;
+    padding-top: 30px;
+    display: block;
+    padding-left: 0;
+}
+.navigation h2:before{
+    width: 80%;
+    left: 10%;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer .nav{
+    border-bottom: 1px solid #222222;
+    margin-bottom: 20px;
+}
+footer .nav li{
+    text-align: center;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+}
+footer .nav li a:hover, .footer .nav li a:focus{
+    color: #fff;
+    background-color: transparent;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+}
